@@ -1,0 +1,1 @@
+FizzBuzzProper = lambda : [[print("FizzBuzz") for j in range(1)] if i%5 == 0 and i%3 == 0 else [print("Buzz") for j in range(1)] if i%5 == 0 else [print("Fizz") for j in range(1)] if i%3 == 0 else [print(i) for j in range(1)] for i in range(1, 101)]
